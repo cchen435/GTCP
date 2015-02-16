@@ -1,0 +1,18 @@
+# Define the following to 1 to enable build
+BENCH_GTC_MPI = 1
+BENCH_CHARGEI_PTHREADS = 0
+BENCH_PUSHI_PTHREADS = 0
+BENCH_SERIAL = 0
+
+CC = mpicc
+MPICC = mpicc
+CFLAGS = -g -static -Wall -Wextra -pedantic -std=gnu99 -fopenmp -DUSE_MPI=1 -DUSE_ADIOS=1 -DUSE_GOLDRUSH -I/home/cchen/install/include
+COPTFLAGS = -O0
+CDEPFLAGS = -MD 
+CLDFLAGS = -L/home/cchen/install/lib -ladios -lmxml -lm -lxpmem -lgoldrush -lpapi -ldf_shm
+
+EXEEXT = _sith_gcc_debug
+
+AR = ar
+ARCRFLAGS = cr
+RANLIB = ranlib
