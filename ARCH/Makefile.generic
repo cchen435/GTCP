@@ -6,8 +6,8 @@ BENCH_SERIAL = 0
 
 CC = mpicc
 MPICC = mpicc
-#CFLAGS = -g -Wall -static -Wextra -pedantic -std=gnu99 -fopenmp -DUSE_MPI=1 -DUSE_ADIOS=1 -DUSE_GOLDRUSH=1 -DPHASE_LENGTH=1 -I/home/cchen/apps/include
-CFLAGS = -g -Wall -static -Wextra -pedantic -std=gnu99 -fopenmp -DUSE_MPI=1 -DUSE_ADIOS=1 -DPHASE_LENGTH=10 -I/home/cchen/apps/include
+CFLAGS = -g -Wall -Wextra -pedantic -std=gnu99 -fopenmp -DUSE_MPI=1 -DUSE_ADIOS=1 -DUSE_GOLDRUSH=1 -DPHASE_LENGTH=1 -I/home/cchen/apps/include
+#CFLAGS = -g -Wall -Wextra -pedantic -std=gnu99 -fopenmp -DUSE_MPI=1 -DUSE_ADIOS=1 -DPHASE_LENGTH=10 -I/home/cchen/apps/include
 #CFLAGS = -g -Wall -Wextra -pedantic -std=gnu99 -fopenmp -DUSE_MPI=1 -DUSE_ADIOS=1 -DUSE_GOLDRUSH=1 -I/home/cchen/apps/include
 COPTFLAGS = -O0
 CDEPFLAGS = -MD 
