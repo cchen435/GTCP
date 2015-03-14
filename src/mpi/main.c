@@ -55,6 +55,7 @@ main (int argc, char **argv)
     restart_time = 0.0;
 
 #if USE_MPI
+  fprintf(stderr, "init MPI\n");
   MPI_Init (&argc, &argv);
   MPI_Comm_size (MPI_COMM_WORLD, &numberpe);
   MPI_Comm_rank (MPI_COMM_WORLD, &mype);
@@ -64,10 +65,12 @@ main (int argc, char **argv)
 #endif
 
 #if USE_ADIOS
+  fprintf(stderr, "init ADIOS\n");
   adios_init ("gtcp.xml", MPI_COMM_WORLD);
 #endif
 
 #if USE_GOLDRUSH
+  fprintf(stderr, "init GoldRush\n");
   gr_init (MPI_COMM_WORLD);
 #endif
   if (mype == 0)
@@ -87,6 +90,7 @@ main (int argc, char **argv)
   MPI_Barrier (MPI_COMM_WORLD);
 #endif
 
+  fprintf(stderr, "Finish Initialization\n");
   if (mype == 0)
     {
       fp = fopen (argv[1], "r");
