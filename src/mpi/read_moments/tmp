@@ -1,0 +1,156 @@
+BP format version: 2
+========================================================
+Process Groups Index:
+Group: moments
+	Process ID: 0
+	Time Name: 
+	Time: 1
+	Offset in File: 0
+========================================================
+Vars Index:
+Var (Group) [ID]: /mgrid (moments) [1]
+	Datatype: integer
+	Vars Characteristics: 1
+	Offset(46)	Payload Offset(77)	File Index(-1)	Time Index(1)	Value(32449)
+Var (Group) [ID]: /ntoroidal (moments) [2]
+	Datatype: integer
+	Vars Characteristics: 1
+	Offset(81)	Payload Offset(116)	File Index(-1)	Time Index(1)	Value(1)
+Var (Group) [ID]: /igrid_moments_in (moments) [3]
+	Datatype: integer
+	Vars Characteristics: 1
+	Offset(120)	Payload Offset(162)	File Index(-1)	Time Index(1)	Value(1)
+Var (Group) [ID]: /igrid_nover_in (moments) [4]
+	Datatype: integer
+	Vars Characteristics: 1
+	Offset(166)	Payload Offset(206)	File Index(-1)	Time Index(1)	Value(1)
+Var (Group) [ID]: /nloc_nover (moments) [5]
+	Datatype: integer
+	Vars Characteristics: 1
+	Offset(210)	Payload Offset(246)	File Index(-1)	Time Index(1)	Value(32449)
+Var (Group) [ID]: /nloc_calc_moments (moments) [6]
+	Datatype: integer
+	Vars Characteristics: 1
+	Offset(250)	Payload Offset(293)	File Index(-1)	Time Index(1)	Value(32449)
+Var (Group) [ID]: /myrank_toroidal (moments) [7]
+	Datatype: integer
+	Vars Characteristics: 1
+	Offset(297)	Payload Offset(338)	File Index(-1)	Time Index(1)	Value(0)
+Var (Group) [ID]: /moments (moments) [9]
+	Datatype: double
+	Vars Characteristics: 1
+	Offset(342)	Payload Offset(547)	File Index(-1)	Time Index(1)	Min(-3.865923e-02)	Max(8.733857e+00)	Dims (l:g:o): (1:1:0,32449:32449:1,7:7:0)
+========================================================
+Attributes Index:
+Attribute (Group) [ID]: /myrank_toroidal/description (moments) [8]
+	Datatype: string
+	Attribute Characteristics: 1
+		Offset(1817703)		Payload Offset(1817792)		File Index(-1)		Time Index(0)		Value(rank of MPI process in toroidal communicator)
+Attribute (Group) [ID]: /__adios__/version (moments) [10]
+	Datatype: string
+	Attribute Characteristics: 1
+		Offset(1817792)		Payload Offset(1817832)		File Index(-1)		Time Index(0)		Value(1.7.0)
+Attribute (Group) [ID]: /__adios__/create_time_epoch (moments) [11]
+	Datatype: integer
+	Attribute Characteristics: 1
+		Offset(1817832)		Payload Offset(1817881)		File Index(-1)		Time Index(0)		Value(1451776052)
+Attribute (Group) [ID]: /__adios__/update_time_epoch (moments) [12]
+	Datatype: integer
+	Attribute Characteristics: 1
+		Offset(1817881)		Payload Offset(1817930)		File Index(-1)		Time Index(0)		Value(1451776052)
+========================================================
+Process Group: 1
+	Group Name: moments
+	Host Language Fortran?: N
+	Coordination Var Member ID: 0
+	Time Name: 
+	Time: 1
+	Methods used in output: 1
+		Method ID: 0
+		Method Parameters: 
+	Vars Count: 8
+		Var Name (ID): mgrid (1)
+		Var Path: 
+		Datatype: integer
+		Is Dimension: Y
+		Characteristics:
+			Offset(0)			Transform-type(0 = none)
+
+		Var Name (ID): ntoroidal (2)
+		Var Path: 
+		Datatype: integer
+		Is Dimension: Y
+		Characteristics:
+			Offset(0)			Transform-type(0 = none)
+
+		Var Name (ID): igrid_moments_in (3)
+		Var Path: 
+		Datatype: integer
+		Is Dimension: Y
+		Characteristics:
+			Offset(0)			Transform-type(0 = none)
+
+		Var Name (ID): igrid_nover_in (4)
+		Var Path: 
+		Datatype: integer
+		Is Dimension: N
+		Characteristics:
+			Offset(0)			Transform-type(0 = none)
+
+		Var Name (ID): nloc_nover (5)
+		Var Path: 
+		Datatype: integer
+		Is Dimension: N
+		Characteristics:
+			Offset(0)			Transform-type(0 = none)
+
+		Var Name (ID): nloc_calc_moments (6)
+		Var Path: 
+		Datatype: integer
+		Is Dimension: Y
+		Characteristics:
+			Offset(0)			Transform-type(0 = none)
+
+		Var Name (ID): myrank_toroidal (7)
+		Var Path: 
+		Datatype: integer
+		Is Dimension: Y
+		Characteristics:
+			Offset(0)			Transform-type(0 = none)
+
+		Var Name (ID): moments (9)
+		Var Path: 
+		Datatype: double
+		Is Dimension: N
+		Dimensions:
+			Dim 0 l:g:o: R(1):V(2):V(7)
+
+			Dim 1 l:g:o: V(6):V(1):V(3)
+
+			Dim 2 l:g:o: R(7)
+		Characteristics:
+			Offset(0)	Min(-3.865923e-02)	Max(8.733857e+00)			Transform-type(0 = none)
+
+	Attributes Count: 4
+		Attribute Name (ID): description (8)
+		Attribute Path: /myrank_toroidal
+		Datatype: string
+		Value: rank of MPI process in toroidal communicator
+
+		Attribute Name (ID): version (10)
+		Attribute Path: /__adios__
+		Datatype: string
+		Value: 1.7.0
+
+		Attribute Name (ID): create_time_epoch (11)
+		Attribute Path: /__adios__
+		Datatype: integer
+		Value: 1451776052
+
+		Attribute Name (ID): update_time_epoch (12)
+		Attribute Path: /__adios__
+		Datatype: integer
+		Value: 1451776052
+
+========================================================
+End of ./MOMENTS_00000.bp

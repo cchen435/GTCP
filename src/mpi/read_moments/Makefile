@@ -6,11 +6,11 @@
 CC=mpicc
 
 #ADIOS_DIR = /opt/adios/1.6.0
-ADIOS_INC = $(shell ${ADIOS_DIR}/bin/adios_config -c)
-ADIOS_CLIB = $(shell ${ADIOS_DIR}/bin/adios_config -l)
-ADIOS_FLIB = $(shell ${ADIOS_DIR}/bin/adios_config -lf)
-ADIOSREAD_SEQ_CLIB = $(shell ${ADIOS_DIR}/bin/adios_config -l -r -s)
-GPP = ${ADIOS_DIR}/bin/gpp.py
+ADIOS_INC = /opt/include
+ADIOS_CLIB = -L/opt/lib -ladios -lm -lmxml 
+ADIOS_FLIB = -L/opt/lib -ladiosf -lm -lmxml
+ADIOSREAD_SEQ_CLIB = -L/opt/lib -ladiosread_nompi -lm 
+GPP = /opt/bin/gpp.py
 
 
 default: all

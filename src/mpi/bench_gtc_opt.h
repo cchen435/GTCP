@@ -36,13 +36,13 @@
 #define REMAPPING            0
 
 /* output for eddy size measurement */
-#define OUTPUT               0
+#define OUTPUT              0 
 
 /* run diagnosis, will generate output diag_c.txt file */
-#define DIAGNOSIS            0
+#define DIAGNOSIS            1
 
 /* output restart file */
-#define RESTART              0
+#define RESTART              1 
 
 /* calculate moments for diagnosis */
 #define CALC_MOMENTS         1

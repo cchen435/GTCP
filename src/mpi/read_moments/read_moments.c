@@ -1,6 +1,4 @@
 #include <stdio.h>
-#if USE_GOLDRUSH #include "goldrush.h"#endif
-#if USE_GOLDRUSH #include "goldrush.h"#endif/g
 #include <stdlib.h>
 #include <stdint.h>
 #include "adios_read.h"
@@ -59,9 +57,9 @@ int main (int argc, char ** argv)
     adios_perform_reads (fp, 1);
 
     int i;
-    if (rank == 1)
+    if (rank == 0)
     {
-        for (i = 0; i < 10; i++)
+        for (i = 0; i < count[0] * count[1] * count[2]; i++)
             printf ("rank = %d, data = %e\n", rank, *(data + i));
     }
     adios_free_varinfo (vi);

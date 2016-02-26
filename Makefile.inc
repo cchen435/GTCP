@@ -1,7 +1,7 @@
 all-targets: all-recursive all-local
 
 ifeq ($(ARCH),)
-  ARCH := generic
+  ARCH := ge
 endif
 
 include $(top_srcdir)/ARCH/Makefile.$(ARCH)

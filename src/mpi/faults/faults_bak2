@@ -1,0 +1,120 @@
+main; istep; 10; gtc_input->field_data.phi[1]; main.c:200; 100
+main; istep; 10; gtc_input->field_data.phi[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->field_data.delt[1]; main.c:200; 100
+main; istep; 10; gtc_input->field_data.delt[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->field_data->pgyro[1]; main.c:200; 100
+main; istep; 10; gtc_input->field_data->pgyro[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->field_data->hfluxpsi[1]; main.c:200; 100
+main; istep; 10; gtc_input->field_data->hfluxpsi[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->field_data->mtheta[1]; main.c:200; 100
+main; istep; 10; gtc_input->field_data->mtheta[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->field_data->sendrf[1]; main.c:200; 100
+main; istep; 10; gtc_input->field_data->sendrf[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->field_data->wtp1[1]; main.c:200; 100
+main; istep; 10; gtc_input->field_data->wtp1[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->field_data->wtp2[1]; main.c:200; 100
+main; istep; 10; gtc_input->field_data->wtp2[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->field_data->gradt[1]; main.c:200; 100
+main; istep; 10; gtc_input->field_data->gradt[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->field_data->difft[1]; main.c:200; 100
+main; istep; 10; gtc_input->field_data->difft[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->field_data->phi00[1]; main.c:200; 100
+main; istep; 10; gtc_input->field_data->phi00[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->field_data->phip00[1]; main.c:200; 100
+main; istep; 10; gtc_input->field_data->phip00[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->field_data->rtemi[1]; main.c:200; 100
+main; istep; 10; gtc_input->field_data->rtemi[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->field_data->rden[1]; main.c:200; 100
+main; istep; 10; gtc_input->field_data->rden[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->field_data->qtinv[1]; main.c:200; 100
+main; istep; 10; gtc_input->field_data->qtinv[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->field_data->pmarki[1]; main.c:200; 100
+main; istep; 10; gtc_input->field_data->pmarki[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->field_data->densityi[1]; main.c:200; 100
+main; istep; 10; gtc_input->field_data->densityi[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->field_data->zonali[1]; main.c:200; 100
+main; istep; 10; gtc_input->field_data->zonali[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->field_data->pfluxpsi[1]; main.c:200; 100
+main; istep; 10; gtc_input->field_data->pfluxpsi[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->particle_data->z0[1]; main.c:200; 100
+main; istep; 10; gtc_input->particle_data->z0[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->particle_data->z1[1]; main.c:200; 100
+main; istep; 10; gtc_input->particle_data->z1[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->particle_data->z2[1]; main.c:200; 100
+main; istep; 10; gtc_input->particle_data->z2[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->particle_data->z3[1]; main.c:200; 100
+main; istep; 10; gtc_input->particle_data->z3[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->particle_data->z4[1]; main.c:200; 100
+main; istep; 10; gtc_input->particle_data->z4[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->particle_data->z5[1]; main.c:200; 100
+main; istep; 10; gtc_input->particle_data->z5[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->particle_data->z01[1]; main.c:200; 100
+main; istep; 10; gtc_input->particle_data->z01[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->particle_data->z02[1]; main.c:200; 100
+main; istep; 10; gtc_input->particle_data->z02[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->particle_data->z03[1]; main.c:200; 100
+main; istep; 10; gtc_input->particle_data->z03[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->particle_data->z04[1]; main.c:200; 100
+main; istep; 10; gtc_input->particle_data->z04[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->particle_data->z05[1]; main.c:200; 100
+main; istep; 10; gtc_input->particle_data->z05[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->particle_data->ztmp[1]; main.c:200; 100
+main; istep; 10; gtc_input->particle_data->ztmp[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->aux_particle_data->kzion[1]; main.c:200; 100
+main; istep; 10; gtc_input->aux_particle_data->kzion[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->aux_particle_data->jtion0[1]; main.c:200; 100
+main; istep; 10; gtc_input->aux_particle_data->jtion0[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->aux_particle_data->jtion1[1]; main.c:200; 100
+main; istep; 10; gtc_input->aux_particle_data->jtion1[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->aux_particle_data->wzion[1]; main.c:200; 100
+main; istep; 10; gtc_input->aux_particle_data->wzion[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->aux_particle_data->wpion[1]; main.c:200; 100
+main; istep; 10; gtc_input->aux_particle_data->wpion[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->particle_collision->dele[1]; main.c:200; 100
+main; istep; 10; gtc_input->particle_collision->dele[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->particle_collision->marker[1]; main.c:200; 100
+main; istep; 10; gtc_input->particle_collision->marker[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->diagnosis_data->rmarker[1]; main.c:200; 100
+main; istep; 10; gtc_input->diagnosis_data->rmarker[1]; main.c:200; 50
+
+main; istep; 10; gtc_input->diagnosis_data->eigenmode[1]; main.c:200; 100
+main; istep; 10; gtc_input->diagnosis_data->eigenmode[1]; main.c:200; 50
+

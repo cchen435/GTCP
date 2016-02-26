@@ -1,0 +1,4 @@
+main; istep; 150; gtc_input->field_data->phi[1]; main.c:200; 100
+main; istep; 150; gtc_input->field_data->phi[1]; main.c:200; 50
+main; istep; 150; gtc_input->field_data->phi[1]; main.c:200; 10
+main; istep; 150; gtc_input->field_data->phi[1]; main.c:200; 1

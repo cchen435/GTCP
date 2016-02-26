@@ -4,11 +4,9 @@ BENCH_CHARGEI_PTHREADS = 0
 BENCH_PUSHI_PTHREADS = 0
 BENCH_SERIAL = 0
 
-CC = mpicc
-MPICC = mpicc
-CFLAGS = -g -Wall -Wextra -pedantic -std=gnu99 -fopenmp -DUSE_MPI=1 -DUSE_ADIOS=1 -DUSE_GOLDRUSH=1 -DPHASE_LENGTH=1 -I/home/cchen/apps/include
-#CFLAGS = -g -Wall -Wextra -pedantic -std=gnu99 -fopenmp -DUSE_MPI=1 -DUSE_ADIOS=1 -DPHASE_LENGTH=10 -I/home/cchen/apps/include
-#CFLAGS = -g -Wall -Wextra -pedantic -std=gnu99 -fopenmp -DUSE_MPI=1 -DUSE_ADIOS=1 -DUSE_GOLDRUSH=1 -I/home/cchen/apps/include
+CC = gcc
+MPICC = gcc
+CFLAGS = -g -Wall -Wextra -pedantic -std=gnu99 -fopenmp  -I/home/cchen/apps/include
 COPTFLAGS = -O0
 CDEPFLAGS = -MD 
 CLDFLAGS = -L/home/cchen/apps/lib -L/home/cchen/Documents/whitedb-0.7.3/Db/.libs -L/home/cchen/Documents/whitedb-0.7.3/Main/.libs -ladios -lmxml -lDb -lm -lgoldrush -lcoopsched -lns -lxpmem -lwgdb -lpapi -ldf_shm

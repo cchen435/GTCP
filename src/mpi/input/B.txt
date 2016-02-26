@@ -1,4 +1,4 @@
-B1;2c# intial run or restart run
+# intial run or restart run
 irun 0
 # number of time steps
 mstep 100

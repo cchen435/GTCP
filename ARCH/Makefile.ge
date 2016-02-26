@@ -1,0 +1,21 @@
+#Define the following to 1 to enable build
+BENCH_GTC_MPI = 1
+BENCH_CHARGEI_PTHREADS = 0
+BENCH_PUSHI_PTHREADS = 0
+BENCH_SERIAL = 0
+
+CC = mpicc
+MPICC = mpicc
+#CFLAGS = -Wall -Wextra -pedantic -std=gnu99 -fopenmp -I/home/cchen/gold-estimator -DUSE_MPI=1 -DUSE_ADIOS=1 
+#CFLAGS = -Wall -Wextra -pedantic -std=gnu99 -fopenmp -I/home/cchen/gold-estimator -DUSE_MPI=1 -DUSE_ADIOS=1 -DUSE_GE=1 -DUSE_GE_RESTART=1
+CFLAGS = -g -Wall -Wextra -pedantic -std=gnu99 -fopenmp -I/home/cchen/gold-estimator -DUSE_MPI=1 -DUSE_ADIOS=1 -DUSE_GE=1
+
+COPTFLAGS = -O0
+CDEPFLAGS = -MD 
+CLDFLAGS = -lm -ladios -lmxml -L/opt/lib -L/home/cchen/gold-estimator -lge -lgsl -lgslcblas
+
+EXEEXT = _ge_inject  
+
+AR = ar
+ARCRFLAGS = 
+RANLIB = ranlib

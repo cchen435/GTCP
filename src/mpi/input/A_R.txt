@@ -1,5 +1,5 @@
 # intial run or restart run
-irun 0
+irun 1
 # number of time steps
 mstep 1500
 # radial

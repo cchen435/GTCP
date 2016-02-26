@@ -1,7 +1,7 @@
 # intial run or restart run
 irun 0
 # number of time steps
-mstep 1500
+mstep 200
 # radial
 mpsi 90
 # poloidal

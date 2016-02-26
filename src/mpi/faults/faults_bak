@@ -1,0 +1,65 @@
+main, istep, 10, gtc_input->field_data->phi[1], main.c:200, 100
+main, istep, 10, gtc_input->field_data->phi[1], main.c:200, 50
+main, istep, 10, gtc_input->field_data->phi[1], main.c:200, 10
+main, istep, 10, gtc_input->field_data->phi[1], main.c:200, 1
+
+main, istep, 10, gtc_input->field_data->delt[1], main.c:200, 100
+main, istep, 10, gtc_input->field_data->delt[1], main.c:200, 50
+main, istep, 10, gtc_input->field_data->delt[1], main.c:200, 10
+main, istep, 10, gtc_input->field_data->delt[1], main.c:200, 1
+
+
+main, istep, 10, gtc_input->field_data->pgyro[1], main.c:200, 100
+main, istep, 10, gtc_input->field_data->pgyro[1], main.c:200, 50
+main, istep, 10, gtc_input->field_data->pgyro[1], main.c:200, 10
+main, istep, 10, gtc_input->field_data->pgyro[1], main.c:200, 1
+
+main, istep, 10, gtc_input->field_data->hfluxpsi[1], main.c:200, 100
+main, istep, 10, gtc_input->field_data->hfluxpsi[1], main.c:200, 50
+main, istep, 10, gtc_input->field_data->hfluxpsi[1], main.c:200, 10
+main, istep, 10, gtc_input->field_data->hfluxpsi[1], main.c:200, 1
+
+main, istep, 10, gtc_input->particle_data->z0[1], main.c:200, 100
+main, istep, 10, gtc_input->particle_data->z0[1], main.c:200, 50
+main, istep, 10, gtc_input->particle_data->z0[1], main.c:200, 10
+main, istep, 10, gtc_input->particle_data->z0[1], main.c:200, 1
+
+main, istep, 10, gtc_input->particle_data->z1[1], main.c:200, 100
+main, istep, 10, gtc_input->particle_data->z1[1], main.c:200, 50
+main, istep, 10, gtc_input->particle_data->z1[1], main.c:200, 10
+main, istep, 10, gtc_input->particle_data->z1[1], main.c:200, 1
+
+main, istep, 10, gtc_input->particle_data->z04[1], main.c:200, 100
+main, istep, 10, gtc_input->particle_data->z04[1], main.c:200, 50
+main, istep, 10, gtc_input->particle_data->z04[1], main.c:200, 10
+main, istep, 10, gtc_input->particle_data->z04[1], main.c:200, 1
+
+main, istep, 10, gtc_input->particle_data->z05[1], main.c:200, 100
+main, istep, 10, gtc_input->particle_data->z05[1], main.c:200, 50
+main, istep, 10, gtc_input->particle_data->z05[1], main.c:200, 10
+main, istep, 10, gtc_input->particle_data->z05[1], main.c:200, 1
+
+main, istep, 10, gtc_input->particle_data->ztmp[1], main.c:200, 100
+main, istep, 10, gtc_input->particle_data->ztmp[1], main.c:200, 50
+main, istep, 10, gtc_input->particle_data->ztmp[1], main.c:200, 10
+main, istep, 10, gtc_input->particle_data->ztmp[1], main.c:200, 1
+
+main, istep, 10, gtc_input->aux_particle_data->wzion[1], main.c:200, 100
+main, istep, 10, gtc_input->aux_particle_data->wzion[1], main.c:200, 50
+main, istep, 10, gtc_input->aux_particle_data->wzion[1], main.c:200, 10
+main, istep, 10, gtc_input->aux_particle_data->wzion[1], main.c:200, 1
+
+main, istep, 10, gtc_input->aux_particle_data->wpion[1], main.c:200, 100
+main, istep, 10, gtc_input->aux_particle_data->wpion[1], main.c:200, 50
+main, istep, 10, gtc_input->aux_particle_data->wpion[1], main.c:200, 10
+main, istep, 10, gtc_input->aux_particle_data->wpion[1], main.c:200, 1
+
+main, istep, 10, gtc_input->particle_collision->dele[1], main.c:200, 100
+main, istep, 10, gtc_input->particle_collision->dele[1], main.c:200, 50
+main, istep, 10, gtc_input->particle_collision->dele[1], main.c:200, 10
+main, istep, 10, gtc_input->particle_collision->dele[1], main.c:200, 1
+
+main, istep, 10, gtc_input->particle_collision->marker[1], main.c:200, 100
+main, istep, 10, gtc_input->particle_collision->marker[1], main.c:200, 50
+main, istep, 10, gtc_input->particle_collision->marker[1], main.c:200, 10
+main, istep, 10, gtc_input->particle_collision->marker[1], main.c:200, 1
